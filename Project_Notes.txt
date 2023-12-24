@@ -1,0 +1,16 @@
+MLOps projects
+
+step 1: create desired folder and virtual environment using mkdir common and conda environment
+step 2: create requirements.txt file, added required tools, modules and libraries to install for projects
+step 3: created file and folders for the project
+step 4: crate a files in step folder
+        ingest_data.py
+        clean_data.py
+        model_train.py
+        model_evaluation.py
+
+        added absic template code in all above file in the step folder 
+step 5: create training_pipeline.py in pipelines folder and crates pipline of ingest_data, clean_data, model_train and model_evaluation
+step 6: create run_pipeline top layer 
+step 7: create src folder
+        data_cleaning.py

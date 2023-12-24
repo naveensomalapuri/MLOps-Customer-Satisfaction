@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

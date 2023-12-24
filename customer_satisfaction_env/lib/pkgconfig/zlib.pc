@@ -1,0 +1,13 @@
+prefix=/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env
+exec_prefix=/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env
+libdir=/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env/lib
+sharedlibdir=/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env/lib
+includedir=/home/naveen/Naveen/Projects/customer_satisfaction/customer_satisfaction_env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
